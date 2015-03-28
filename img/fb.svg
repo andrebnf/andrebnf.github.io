@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="fb-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="83.333px" height="83px" viewBox="0 0 83.333 83" enable-background="new 0 0 83.333 83" xml:space="preserve">
+<style>
+	#bg {
+		fill: #7D82B5;
+	}
+	#fg:hover, #bg:hover {
+	  cursor:pointer;
+	}
+
+</style>
+<circle id="bg" fill="#191919" cx="41.95" cy="41.757" r="39.723"/>
+<path id="fg" fill="#FFFFFF" d="M53.359,33.57h-7.354v-4.828c0-1.809,1.198-2.232,2.046-2.232c0.843,0,5.187,0,5.187,0v-7.96
+	l-7.146-0.029c-7.935,0-9.742,5.939-9.742,9.74v5.31h-4.587v8.203h4.587c0,10.531,0,23.221,0,23.221h9.655c0,0,0-12.814,0-23.221
+	h6.51L53.359,33.57z"/>
+</svg>
