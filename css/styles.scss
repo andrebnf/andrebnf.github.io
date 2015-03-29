@@ -1,5 +1,8 @@
 $bg-color: rgb(250, 246, 236);
-$main-green: #58B881;
+$main-green: lighten(#58B881, 10%);
+
+$container: "(max-width: 1000px)";
+$one-column: "(max-width: 850px)";
 
 * {
 	margin: 0px;
@@ -7,22 +10,30 @@ $main-green: #58B881;
 	box-sizing: border-box;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: $bg-color;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #555;
   border-top: 3px solid $main-green;
-  border-bottom: 3px solid $main-green;
+	height: 100%;
 }
 
 .container {
 	padding-top: 2em;
 	width: 85%;
 	margin: 0px auto;	
+	
+	@media #{$container} {
+		width: 92%;
+	}
 }
 
 section {
-	margin-bottom: 1.2em;
+	margin-bottom: 1em;
 
 	&#title {
 
@@ -41,10 +52,16 @@ section {
 			font-weight: 300;
 			margin-bottom: .3em;
 		}
+
+		.email {
+			margin-top: .5em;
+			color: #777;
+		}
 	}
 
 	&#content {
 		font-size: 1.1em;
+		margin: 0;
 
 		&>div {
 			width: calc(50% - 2px);
@@ -56,39 +73,56 @@ section {
 			}
 
 			&:first-child {
-				border-right: 1px solid #DDD;
+				border-right: 1px solid #aaa;
 				padding-left: 0px;
 			}
-		}
 
-		h3 {
-			text-transform: uppercase;
-			font-size: .87em;
-			letter-spacing: .05em;
-			font-weight: 400;
-			margin: .8em 0; 
-		}
-
-		p {
-			line-height: 1.5em;
-			text-align: justify;
-
-			&.date {
-				text-align: right;
-				font-weight: 300;
-				letter-spacing: 1px;
-				font-size: .9em;
+			@media #{$one-column} {
+				float: none;
+				width: 100%;
+				padding: 0px;
+				border: none !important;
 			}
 		}
 
-		.social-btn {
-			width: 2.5em;
-			margin-right: .8em;
+		.info-container {
+			margin: 0 0 .8em 0; 
 
-			&:hover {
-				cursor: pointer;
+			@media #{$one-column}{
+				margin: 1.7em 0 .8em 0; 
+
+			}
+
+			h3 {
+				text-transform: uppercase;
+				font-size: .87em;
+				letter-spacing: .05em;
+				font-weight: 400;
+				margin-bottom: 0.8em;
+			}
+
+			p {
+				line-height: 1.5em;
+				text-align: justify;
+
+				&.date {
+					// text-align: right;
+					font-weight: 300;
+					letter-spacing: 1px;
+					font-size: .9em;
+				}
+			}
+
+			.social-btn {
+				width: 2.5em;
+				margin-right: .6em;
+
+				&:hover {
+					cursor: pointer;
+				}
 			}
 		}
+
 	}
 }
 
@@ -101,6 +135,25 @@ section {
 		top: 1.2em;
 		left: 0;
 		width: 3em;
-		border-bottom: 2px solid $main-green;
+		border-bottom: 2px solid lighten($main-green, 15%);
 	}
+}
+
+a {
+	text-decoration: none;
+
+	&:link,
+	&:active,
+	&:visited{
+		color: darken($main-green, 10%);
+	}
+
+	&:hover {
+		color: $main-green;
+	}
+}
+
+.spacer {
+	clear: both;
+	height: 3em;
 }
