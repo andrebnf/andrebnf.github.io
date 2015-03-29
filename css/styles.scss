@@ -50,7 +50,7 @@ section {
 
 		#fullname {
 			font-weight: 300;
-			margin-bottom: .3em;
+			margin-bottom: .5em;
 		}
 
 		.email {
@@ -132,7 +132,7 @@ section {
 	&:before {
 		content: " ";
 		position: absolute;
-		top: 1.2em;
+		top: 1.1em;
 		left: 0;
 		width: 3em;
 		border-bottom: 2px solid lighten($main-green, 15%);
