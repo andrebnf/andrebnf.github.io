@@ -7,9 +7,9 @@ html {
   height: 100%; }
 
 body {
-  background-color: #faf6ec;
+  background-color: white;
   font-family: 'Josefin Sans', sans-serif;
-  color: #555;
+  color: #333;
   border-top: 3px solid #7cc79c;
   height: 100%; }
 
@@ -36,47 +36,98 @@ section {
     section#main-info .email {
       margin-top: .5em;
       color: #777; }
-  section#content {
+  section#first {
     font-size: 1.1em;
     margin: 0; }
-    section#content > div {
+    section#first > div.column {
       width: calc(50% - 2px);
       float: left;
       padding: 7px 20px 7px 20px; }
-      section#content > div .item {
-        margin-bottom: .5em; }
-      section#content > div:first-child {
-        border-right: 1px solid #aaa;
+      section#first > div.column .item {
+        margin-bottom: .7em; }
+      section#first > div.column:first-child {
+        border-right: 1px solid #ddd;
         padding-left: 0px; }
       @media (max-width: 850px) {
-        section#content > div {
+        section#first > div.column {
           float: none;
           width: 100%;
           padding: 0px;
           border: none !important; } }
-    section#content .info-container {
+    section#first .info-container {
       margin: 0 0 .8em 0; }
       @media (max-width: 850px) {
-        section#content .info-container {
+        section#first .info-container {
           margin: 1.7em 0 .8em 0; } }
-      section#content .info-container h3 {
-        text-transform: uppercase;
-        font-size: .87em;
+      section#first .info-container h3 {
+        font-size: 1.2em;
         letter-spacing: .05em;
-        font-weight: 400;
         margin-bottom: 0.8em; }
-      section#content .info-container p {
+      section#first .info-container p {
         line-height: 1.5em;
-        text-align: justify; }
-        section#content .info-container p.date {
-          font-weight: 300;
+        text-align: justify;
+        font-size: 1.1em; }
+        section#first .info-container p.date {
           letter-spacing: 1px;
           font-size: .9em; }
-      section#content .info-container .social-btn {
+      section#first .info-container .social-btn {
         width: 2.5em;
         margin-right: .6em; }
-        section#content .info-container .social-btn:hover {
+        section#first .info-container .social-btn:hover {
           cursor: pointer; }
+  section.items-list {
+    clear: both;
+    padding-top: 2em; }
+    section.items-list.right h3 {
+      float: right; }
+    section.items-list.right .header-column {
+      clear: both;
+      float: right; }
+      section.items-list.right .header-column p {
+        text-align: left; }
+    section.items-list.right .info {
+      float: right; }
+      section.items-list.right .info p, section.items-list.right .info h4 {
+        text-align: right; }
+    section.items-list.left .header-column {
+      float: left; }
+      section.items-list.left .header-column p {
+        text-align: right; }
+    section.items-list.left .info {
+      float: left; }
+      section.items-list.left .info p, section.items-list.left .info h4 {
+        text-align: left; }
+    section.items-list h3 {
+      font-size: 1.4em;
+      letter-spacing: .05em;
+      margin-bottom: 1em; }
+    section.items-list .header-column {
+      width: 100px; }
+      section.items-list .header-column p {
+        color: #555;
+        font-size: .9em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-top: .2em; }
+        section.items-list .header-column p.date {
+          padding-top: 0.7em; }
+    section.items-list .info {
+      width: calc(70% - 100px);
+      padding: 0 1em; }
+      @media (max-width: 850px) {
+        section.items-list .info {
+          width: calc(90% - 100px); } }
+      @media (max-width: 450px) {
+        section.items-list .info {
+          width: calc(100% - 100px); } }
+      section.items-list .info h4 {
+        font-size: 1.2em;
+        margin-bottom: .3em; }
+      section.items-list .info p {
+        font-size: 1.2em; }
+    section.items-list .separator {
+      clear: both;
+      height: 1.3em; }
 
 .underline-trace {
   position: relative; }
