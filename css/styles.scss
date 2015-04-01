@@ -3,9 +3,10 @@ $main-green: lighten(#58B881, 10%);
 
 $container: "(max-width: 1000px)";
 $one-column: "(max-width: 850px)";
+$medium: "(max-width: 700px)";
 $small: "(max-width: 450px)";
 
-$second-header-column-size: 100px;
+$second-header-column-size: 110px;
 
 * {
 	margin: 0px;
@@ -31,7 +32,7 @@ body {
 	margin: 0px auto;	
 	
 	@media #{$container} {
-		width: 92%;
+		width: 90%;
 	}
 }
 
@@ -44,7 +45,7 @@ section {
 			font-size: 3em;
 			font-weight: 300;
 			color: $main-green;
-			text-align: center;
+			text-align: right;
 		}
 	}
 
@@ -56,45 +57,26 @@ section {
 			margin-bottom: .5em;
 		}
 
-		.email {
+		.links-list {
 			margin-top: .5em;
 			color: #777;
+
+			p:first-child {
+				margin-bottom: .4em;
+			}
 		}
 	}
 
 	&#first {
 		font-size: 1.1em;
-		margin: 0;
+		margin: 3em 0 2em 0;
 
-		&>div.column {
-			width: calc(50% - 2px);
-			float: left;
-			padding: 7px 20px 7px 20px;
+		.summary-wrap {
+			width: 80%;
+			margin: 0 auto;
 
-			.item {
-				margin-bottom: .7em;
-			}
-
-			&:first-child {
-				border-right: 1px solid #ddd;
-				padding-left: 0px;
-			}
-
-			@media #{$one-column} {
-				float: none;
-				width: 100%;
-				padding: 0px;
-				border: none !important;
-			}
-		}
-
-		.info-container {
-			margin: 0 0 .8em 0; 
-
-			@media #{$one-column}{
-				margin: 1.7em 0 .8em 0; 
-
-			}
+			@media #{$medium} { width: 85%; }
+			@media #{$small} { width: 90%; }
 
 			h3 {
 				// text-transform: uppercase;
@@ -103,27 +85,10 @@ section {
 				// font-weight: 400;
 				margin-bottom: 0.8em;
 			}
-
 			p {
 				line-height: 1.5em;
 				text-align: justify;
 				font-size: 1.1em;
-
-				&.date {
-					// text-align: right;
-					// font-weight: 300;
-					letter-spacing: 1px;
-					font-size: .9em;
-				}
-			}
-
-			.social-btn {
-				width: 2.5em;
-				margin-right: .6em;
-
-				&:hover {
-					cursor: pointer;
-				}
 			}
 		}
 
@@ -135,28 +100,38 @@ section {
 
 		&.right {
 			h3 {
-				float: right;
+				float: right;	margin-right: $second-header-column-size;
+
+				@media #{$medium} { margin-right: 0;}
 			}
 			.header-column {
 				clear: both;
 				float: right;
-				
-				p {
-					text-align: left;
-				}
+				padding-left: 1em;
+				p {	text-align: left;	}
 			}
 			.info {
 				float: right;
-				p, h4 {
-					text-align: right;
+
+				p, h4 { text-align: right; }
+
+				p{
+					@media #{$small} { text-align: justify; }
 				}
+				p.hidden-date { text-align: right; }
 			}
 		}
 
 		&.left {
+			h3 {
+				margin-left: $second-header-column-size;
+
+				@media #{$medium} { margin-left: 0;	}
+			}
+
 			.header-column {
+				padding-right: 1em;
 				float: left;
-				
 				p {
 					text-align: right;
 				}
@@ -165,6 +140,10 @@ section {
     	  float: left;
     	  p, h4 {
 					text-align: left;
+				}
+
+				p{
+					@media #{$small} { text-align: justify; }
 				}
 			}
 		}
@@ -178,7 +157,12 @@ section {
 		}
 
 		.header-column {
+			@media #{$medium} {
+				display: none;
+			}
+
 			width: $second-header-column-size;
+    	
 			p {
 				color: #555;
 				font-size: .9em;
@@ -193,13 +177,18 @@ section {
 		}
     .info {
     	width: calc(70% - #{$second-header-column-size});
-    	padding: 0 1em;
 			
 			@media #{$one-column} {
 				width: calc(90% - #{$second-header-column-size});
 			}
 			@media #{$small} {
 				width: calc(100% - #{$second-header-column-size});
+			}
+			@media #{$medium} { /* no side column */
+				width: 90%;
+			}
+			@media #{$small} {
+				width: 100%;
 			}
 
 			h4 {
@@ -210,6 +199,18 @@ section {
     	p {
     		font-size: 1.2em;
     	}
+
+			p.hidden-date {
+				display: none;
+				color: #555;
+				font-size: .9em;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				padding-bottom: .3em;
+				@media #{$medium} { /* no side column */
+					display: block;
+				}
+			}
     }
 
     .separator {
