@@ -18,7 +18,7 @@
 
 		<section id="main-info">
 			<h2 class="underline-trace" id="fullname">André Luiz Bonfatti</h2>
-			<p>21, web enthusiast, student</p>
+			<p>21, entusiasta web, estudante</p>
 		  <p>Sorocaba - SP</p>
 		  <div class="links-list">
 		  	<p><a href="mailto:andrebnf@gmail.com">andrebnf@gmail.com</a></p>
@@ -27,7 +27,7 @@
 		  	<p><a href="http://br.linkedin.com/pub/andré-bonfatti/b5/789/599/en" target="_blank"> linked in</a></p>
 		  </div>
 		  <div class="links-list">	
-		  	<p><a href="./pt"> portuguese version</a></p>
+		  	<p><a href="./"> versão em inglês</a></p>
 		  </div>
 		</section>
 
@@ -35,13 +35,13 @@
 
 			<div class="summary-wrap">
 				<div class="info-container">
-					<h3 class="underline-trace">Summary</h3>
+					<h3 class="underline-trace">Sumário</h3>
 					<div class="item">
 						<!-- <p>"I like coffee, ice cream and put them togheter to make me love you".</p> -->
-						<p>I like to create and learn new stuff all the time. In the past years, I've dedicated most of my time for learning about web development - area that I'm passionate about. This idea began at my first year at university, where I researched about user experience on rich web interfaces.</p>
+						<p>Gosto de criar coisas novas e aprender o tempo todo. Nos últimos anos, dediquei a maior parte do meu tempo para aprender sobre desenvolvimento web - área com a qual tenho paixão. Esta ideia começou no meu primeiro ano de faculdade, quando realizei pesquisas sobre experiência de usuários em interfaces web ricas.</p>
 					</div>
 					<div class="item">
-						<p>I lived for one year in Perth - Australia, where I earned a huge cultural baggage. At the University of Western Australia, where I studied for this period, I took Management and Leadership courses - field that I consider vital to professional life - and I also attended to Computer Science classes.</p>
+						<p>Morei por um ano em Perth - Austrália, onde acumulei uma enorme bagagem cultural. Na University of Western Australia, onde estudei por esse período, realizei atividades de gerência e desenvolvimento de liderança - áreas que considero vitais para minha vida profissional - e também cursei matérias do curso de Ciência da Computação.</p>
 					</div>
 				</div>
 				
@@ -50,15 +50,15 @@
 		</section>
 
 		<section id="education" class="items-list right">
-			<h3 class="title underline-trace">Education</h3>
+			<h3 class="title underline-trace">Educação</h3>
 			<div class="header-column">
 				<p>2011 - 2016*</p>
-				<small>* estimated</small>
+				<small>* estimado</small>
 			</div>
 			<div class="info">
-				<h4>Computer Science Undergraduate</h4>
-				<p class="hidden-date">2011 - 2016 <small>estimated</small></p>
-				<p>Federal University of São Carlos - Sorocaba Campus</p>
+				<h4>Bacharel em Ciência da Computação</h4>
+				<p class="hidden-date">2011 - 2016 <small>estimado</small></p>
+				<p>Universidade Federal de São Carlos - Campus Sorocaba</p>
 			</div>
 			
 			<div class="separator"></div>
@@ -66,7 +66,7 @@
 				<p>2013 - 2014</p>
 			</div>
 			<div class="info">
-				<h4>Computer Science Exchange Student</h4>
+				<h4>Intercâmbio Internacional em Ciência da Computação</h4>
 				<p class="hidden-date">2013 - 2014</p>
 				<p>University of Western Australia - Perth WA</p>
 			</div>
@@ -76,48 +76,48 @@
 				<p>2009 - 2010</p>
 			</div>
 			<div class="info">
-				<h4>IT Technician Degree</h4>
+				<h4>Técnico em Informática e TI</h4>
 				<p class="hidden-date">2009 - 2010</p>
-				<p>Paula Souza's Technical School</p>
+				<p>Centro Educacional Paula Souza (ETEC bebedouro)</p>
 			</div>
 
 		</section>
 
 		<section id="second" class="items-list left">
-			<h3 class="title underline-trace">Experiences</h3>
+			<h3 class="title underline-trace">Experiências</h3>
 			<div class="header-column">
-				<p>Current</p>
+				<p>Atual</p>
 				<p class="date">2015</p>
 			</div>
 			<div class="info">
-				<h4>Products Trainee at Financial Market League (UFSCar Sorocaba)</h4>
+				<h4>Trainee de Produtos na Liga de Mercado Financeiro da UFSCar Sorocaba</h4>
 				<p class="hidden-date">2015</p>
-				<p>Trainee program at the biggest Univesity Group, which acts directly with big financial institutions. My main role is to coordinate activities regarding IT oportunities.</p>
+				<p>Programa de Trainee no maior grupo estudantil da Universidade focado no mercado de trabalho: em especial, no mercado financeiro. Meu papel na Liga é coordenar atividades e produtos para Associados de TI.</p>
 			</div>
 			
 			<div class="separator"></div>
 			<div class="header-column">
-				<p>Previous</p>
+				<p>Anterior</p>
 				<p class="date">2012</p>
 			</div>
 			<div class="info">
-				<h4>Research on User Experience</h4>
+				<h4>Pesquisa em Experiência de Usuário</h4>
 				<p class="hidden-date">2012</p>
-				<p>Research founded by the brazilian National Council for Science and Technology Development (CNPq) on User Experience. The title for the research was: Adaptation of Context-Sensitive Rich Interfaces on Web 2.0. This research was coordinated by Luciana Zaina, pHD.</p>
+				<p>Pesquisa apoiada pelo CNPq. O título da pesquisa, que se extendeu por um ano, era: Adaptação de Interfaces Ricas Sensíveis ao Contexto na Web 2.0. O programa de pesquisa era coordenado pela Profa. Dr. Luciana Zaina.</p>
 			</div>
 
 		</section>
 
 		<section id="third" class="items-list right">
-			<h3 class="title underline-trace">Projects</h3>
+			<h3 class="title underline-trace">Projetos</h3>
 			<div class="header-column">
-				<p>ONGOING</p>
+				<p>ATUAL</p>
 				<p class="date">2015</p>
 			</div>
 			<div class="info">
-				<h4>Web Development Unit Monitor &amp; Unit's web site developer</h4>
+				<h4>Monitor da matéria de Desenvolvimento Web e desenvolvedor do site da matéria</h4>
 				<p class="hidden-date">2015 - ONGOING</p>
-				<p>Started on February 2015 and scheduled to finish by July. My objective is to help the students having difficulties on the unit, as well as to develop <a href="http://200.133.238.112/web/">the main web site</a> they use. </p>
+				<p>Projeto iniciado em Fevereiro e previsto para finalizar em Julho. Meu objetivo é auxiliar os estudantes em dúvidas sobre o conteúdo da matéria e mander <a href="http://200.133.238.112/web/">o website principal</a> que os discentes usam. </p>
 			</div>
 			<div class="separator"></div>
 
@@ -125,9 +125,9 @@
 				<p>2014</p>
 			</div>
 			<div class="info">
-				<h4>The Fair Broker: online tool for home accounting</h4>
+				<h4>O Corretor Justo: ferramenta online para planejamento de compra de imóveis</h4>
 				<p class="hidden-date">2014</p>
-				<p><a href="http://corretorjusto.com.br/">This tool</a> uses statistical temporal series to predict (with less than 5% error rate) the main tax used to adjust the price of properties on the real state market. The objective is so people that doesn't have the knowledge can actually account the real value of the property.</p>
+				<p><a href="http://corretorjusto.com.br/">Esta ferramenta</a> utiliza séries estatísticas para prever, com alta precisão, o Índice Nacional de Custo da Construção (INCC) e calcular o preço final do imóvel. O objetivo desta ferramenta é auxiliar pessoas que não estão cientes dos gastos de impostos neste tipo de aquisição.</p>
 			</div>
 			<div class="separator"></div>
 
@@ -135,19 +135,19 @@
 				<p>2011</p>
 			</div>
 			<div class="info">
-				<h4>Co-founder &amp; Marketing Director at CS's Junior Company</h4>
+				<h4>Co-fundador e Diretor de Marketing na Empresa Júnior de Ciência da Computação</h4>
 				<p class="hidden-date">2011</p>
-				<p>Worked to structure and organize the Computer Science's Junior Company. My main role on the company - as the Marketing Director - was to coordinate campaigns regarding our products</p>
+				<p>Trabalhei para organizar e estruturar a Empresa junto aos outros membros. Meu papel principal como Diretor de Marketing era coordenar campanhas sobre nossos produtos.</p>
 			</div>
 
 			<div class="separator"></div>
 			<div class="header-column">
-				<p>2011 - 2013</p>
+				<p>2011 - 2013, 2015</p>
 			</div>
 			<div class="info">
-				<h4>Computer Science &amp; Technology Week</h4>
+				<h4>Semana da Computação e Tecnologia</h4>
 				<p class="hidden-date">2011 - 2013, 2015</p>
-				<p>Event organized by students at the University of São Carlos - Sorocaba campus. In 2011, I attended as a participant, and in 2012, 2013 and 2015, as staff.</p>
+				<p>Evento organizado por estudantes da Universidade Federal de São Carlos - Campus Sorocaba com o intúito de apresentar novas tecnologias e conceitos para os alunos do curso e para a comunidade local. Participei como ouvinte em 2011, e como parte da organização em 2012, 2013 e 2015.</p>
 			</div>
 			<div class="separator"></div>
 
@@ -155,19 +155,19 @@
 				<p>2010</p>
 			</div>
 			<div class="info">
-				<h4>Farm Control System - SysAgro</h4>
+				<h4>Sistema de Controle para Fazenda - SysAgro</h4>
 				<p class="hidden-date">2010</p>
-				<p>Started on an IT Technician Degree course, this projected was developed for a local farm. My job was to sell the product, gather the requirements and to build the whole system.</p>
+				<p>Realizado no curso técnico em TI, este projeto foi desenvolvido para uma fazenda local com a finalidade de controlar e automatizssar controle de funcionário, maquinário e plantações. Participei dos processos de venda, levantamento de requisitos, desenvovimento, implantação e treinamento.</p>
 			</div>
 		</section>
 
 		<section id="skills" class="items-list left lg-header">
-			<h3 class="title underline-trace">Skills</h3>
+			<h3 class="title underline-trace">Habilidades</h3>
 			<div class="header-column">
-				<p>DEVELOPMENT</p>
+				<p>COMPUTAÇÃO</p>
 			</div>
 			<div class="info">
-				<p class="hidden-date">DEVELOPMENT</p>
+				<p class="hidden-date">DESENVOLVIMENTO</p>
 				<p>HTML, CSS, SASS, JavaScript, jQuery, Node.Js, Angular.Js, SQL, PHP, Java, Ruby on Rails, Git, Linux </p>
 			</div>
 
@@ -186,34 +186,34 @@
 			</div>
 			<div class="info">
 				<p class="hidden-date">MANAGEMENT</p>
-				<p>Leadership, People Management, Team Development</p>
+				<p>Liderança, Gestão de Pessoas, Desenvolvimento de Time</p>
 			</div>
 
 		</section>
 
 		<section id="interests" class="items-list right lg-header">
-			<h3 class="title underline-trace">Interests</h3>
+			<h3 class="title underline-trace">Interesses</h3>
 			<div class="header-column">
-				<p>PROFESSIONAL</p>
+				<p>PROFISSIONAL</p>
 			</div>
 			<div class="info">
-				<p class="hidden-date">PROFESSIONAL</p>
-				<p>Front-end development, web design, software engineering, back-end development, management</p>
+				<p class="hidden-date">PROFISSIONAL</p>
+				<p>Desenvolvimento front-ent, web design, engenharia de software, desenvolvimento back-end, gerenciamento</p>
 			</div>
 			
 			<div class="separator"></div>
 			<div class="header-column">
-				<p>PERSONAL</p>
+				<p>PESSOAIS</p>
 			</div>
 			<div class="info">
-				<p class="hidden-date">PERSONAL</p>
-				<p>Music, cooking, digital games</p>
+				<p class="hidden-date">PESSOAIS</p>
+				<p>Música, cozinhar, jogos digitais</p>
 			</div>
 
 		</section>
 
 		<section id="interests" class="items-list left lg-header">
-			<h3 class="title underline-trace">Courses</h3>
+			<h3 class="title underline-trace">Cursos</h3>
 			<div class="header-column">
 				<p>2013 - 2014</p>
 			</div>
@@ -241,7 +241,7 @@
 			</div>
 			<div class="info">
 				<p class="hidden-date">2014</p>
-				<p>Class Champion (Global Student Leadership Program - Australian Institute of Management)</p>
+				<p>Campeão de Turma (Global Student Leadership Program - Australian Institute of Management)</p>
 			</div>
 
 		</section>
