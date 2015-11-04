@@ -8,6 +8,7 @@ $small: "(max-width: 450px)";
 
 $second-header-column-size: 110px;
 $lg-header-column-size: 150px;
+$print-header-column-size: 80px;
 
 * {
 	margin: 0px;
@@ -27,7 +28,7 @@ body {
 	height: 100%;
 
 	@media print {
-		font-size: 78% !important;
+		font-size: 73% !important;
 	}
 }
 
@@ -73,18 +74,23 @@ section {
 			span:first-child {
 				margin-bottom: .4em;
 			}
+
+			&.lang {
+				@media print{display: none !important;}
+			}
 		}
 	}
 
 	&#first {
 		font-size: 1.1em;
 		margin: 3em 0 2em 0;
-		@media print{margin: 11em 0 9em 0 !important;}
+		@media print{margin: 2em 0 1em 0 !important;}
 
 		.summary-wrap {
 			width: 80%;
 			margin: 0 auto;
 
+			@media print {width: 100% !important;}
 			@media #{$medium} { width: 85%; }
 			@media #{$small} { width: 90%; }
 
@@ -133,7 +139,6 @@ section {
 			}
 			.info {
 				float: right;
-				@media print {float: none !important; display: block;}
 
 				p, h4 {
 					text-align: right;
@@ -191,10 +196,21 @@ section {
 			@media #{$medium} {
 				display: none;
 			}
+			@media print {
+				display: block !important;
+				float: left !important;
+				float: left !important;
+				padding-left: 0px !important;
+				padding-right: 1em !important;
+			}
 
 			width: $second-header-column-size;
+			@media print{ width: $print-header-column-size !important; };
 
 			p {
+				@media print{
+					text-align: right !important;
+				}
 				color: #555;
 				font-size: .9em;
 				text-transform: uppercase;
@@ -205,16 +221,30 @@ section {
 					padding-top: 0.7em;
 				}
 			}
+			small {
+				@media print{
+					float: right !important;
+				}
+			}
 		}
 
 		&.lg-header {
 			.header-column {
 				width: $lg-header-column-size;
+				@media print{ width: $print-header-column-size !important; };
 			}
+		}
+
+		.header-column {
 		}
 
     .info {
     	width: calc(70% - #{$second-header-column-size});
+			@media print{
+				width: calc(99% - #{$print-header-column-size}) !important;
+				float: none !important;
+				margin-left: $print-header-column-size !important;
+			}
 
 			@media #{$one-column} {
 				width: calc(90% - #{$second-header-column-size});
@@ -247,6 +277,9 @@ section {
 				padding-bottom: .3em;
 				@media #{$medium} { /* no side column */
 					display: block;
+				}
+				@media print {
+					display: none !important;
 				}
 			}
     }
@@ -288,13 +321,11 @@ a {
 
 .spacer {
 	clear: both;
-	height: 5.2em;
+	height: 6.8em;
   border-bottom: 20px solid $main-green;
 
 }
 
-#education {
-	@media print {
-  	page-break-after: always;
-	}
+#second {
+	// @media print {page-break-after: always;}
 }
