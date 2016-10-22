@@ -10,6 +10,8 @@ $second-header-column-size: 110px;
 $lg-header-column-size: 150px;
 $print-header-column-size: 80px;
 
+$monofont: 'Fira Mono', monospace;
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -81,10 +83,15 @@ section {
 		}
 	}
 
+	.hide-print {
+		display: inline;
+		@media print{display: none !important;}
+	}
+
 	&#first {
 		font-size: 1.1em;
 		margin: 3em 0 2em 0;
-		@media print{margin: 2em 0 1em 0 !important;}
+		@media print{margin: 4em 0 1.4em 0 !important;}
 
 		.summary-wrap {
 			width: 80%;
@@ -328,4 +335,20 @@ a {
 
 #second {
 	// @media print {page-break-after: always;}
+}
+
+p.skill-box {
+	font-family: $monofont;
+	font-size: .9em !important;
+	line-height: 1.7em;
+	span {
+		white-space: nowrap;
+		padding: .1em .4em .05em;
+		border-radius: 3px;
+		background-color: #e8e8e8;
+	}
+}
+
+.date-t {
+	font-size: .85em !important;
 }
